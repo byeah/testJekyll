@@ -15,8 +15,8 @@ layout: default
 </div>
 
 {% if page.comments %}
-      <div id="disqus_thread" style="width: 40%"></div>
-<script type="text/javascript">
+<div id="disqus_thread" style="width: 60%"></div>
+  <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'byeah';
     
@@ -26,7 +26,7 @@ layout: default
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>
+  </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% else %}
 <div><h3><b>This blog is not allowed to comment</b></h3></div>
