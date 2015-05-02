@@ -3,7 +3,7 @@ A small template blog using Jekyll
 
 View the live demo for this template [here]
 
-To test and build it locally. First install te Jekyll:
+To test and build it locally. First install Jekyll:
 <pre>
 	gem install jekyll
 </pre>
