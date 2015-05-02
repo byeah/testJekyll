@@ -7,4 +7,4 @@ permalink: /about/
 View my homepage [here]
 
 
-[here]: byeah.github.io
+[here]: http://byeah.github.io
