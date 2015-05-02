@@ -14,7 +14,9 @@ layout: default
 
 </div>
 
-{% if page.comments %}
+{% if page.disable_comments %}
+<div><h3><b>This blog is not allowed to comment</b></h3></div>
+{% else %}
 <div id="disqus_thread" style="width: 60%"></div>
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -28,6 +30,4 @@ layout: default
     })();
   </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-{% else %}
-<div><h3><b>This blog is not allowed to comment</b></h3></div>
 {% endif %}
